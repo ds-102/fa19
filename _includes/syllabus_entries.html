@@ -1,0 +1,125 @@
+{% assign lecture_counter = 1 %}
+
+{% for lecture in site.data.lectures %}
+
+  <!-- Use this block if starting lecture date is week begin -->
+  {% comment %}
+  {% assign is_week_begin = lecture_counter | plus: 1 | modulo: 2 %}
+  {% assign week = lecture_counter | divided_by: 2.0 | ceil %}
+  {% assign is_off_week = false %}
+  {% endcomment %}
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  {% assign is_week_begin = lecture_counter | modulo: 2 %}
+  {% assign week = lecture_counter | plus: 1 | divided_by: 2.0 | ceil %}
+  {% assign is_off_week = true %}
+
+  <tr class="lecture"
+      data-lecture-week="{{ week }}"
+      data-lecture-date="{{ lecture.date }}">
+
+    <!-- Week Column  -->
+    {% if is_week_begin == 0 %}
+      <td class="lecture__week" id="lecture-week-{{week}}" rowspan="2">
+        {{ week }}
+      </td>
+    {% elsif lecture_counter == 1 and is_off_week %}
+      <td class="lecture__week" id="lecture-week-{{week}}">
+        {{ week }}
+      </td>
+    {% endif %}
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      {{ lecture_counter }}
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      {{ lecture.date }}
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        {{ lecture.topic }}
+        {% if lecture.slides %}
+          [<a href="{{ lecture.slides }}">slides</a>]
+        {% endif %}
+        <!-- {% if lecture.lecturer %} [{{ lecture.lecturer }}] {% endif %} -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-{{week}}" hidden="true">
+          {{ lecture.description }}
+      </p>
+      
+      {% if lecture.resources %}
+      <p class="lecture__resources">
+        {{ lecture.resources | markdownify }}
+      </p>
+      {% endif %}
+      <!-- {% if lecture.textbook %}
+      <p class="lecture__textbook"><strong>
+        Textbook:
+        {% for entry in lecture.textbook %}
+          <a href="{{ entry.url }}">{{ entry.chapter }}</a>
+          {% if entry != lecture.textbook.last %}
+            ,
+          {% endif %}
+        {% endfor %}
+      </strong></p>
+      {% endif %}
+
+      {% if lecture.links %}
+      <p>
+        [
+        {% for link in lecture.links %}
+          <a href="{{ link.url }}">{{ link.name }}</a>
+          {% if link != lecture.links.last %}
+            |
+          {% endif %}
+        {% endfor %}
+        ]
+      </p>
+      {% endif %}
+
+      {% if lecture.assignment %}
+        <h4 class="lecture__assignment">
+          {{ lecture.assignment | markdownify }}
+        </h4>
+      {% endif %} -->
+    </td>
+
+    <!-- Lab Column -->
+    {% if lecture.lab %}
+      <td class="lab__info">
+          {{ lecture.lab | markdownify }}
+      </td>
+    {% else %}
+      <td class="lab__info"> </td>
+    {% endif %}
+
+    <!-- Discussion Column -->
+    {% if lecture.discussion %}
+      <td class="disc__info">
+          {{ lecture.discussion | markdownify }}
+      </td>
+    {% else %}
+      <td class="disc__info"> </td>
+    {% endif %}
+
+    <!-- Homework Column -->
+    {% if lecture.homework %}
+      <td class="hw__info">
+          {{ lecture.homework | markdownify }}
+      </td>
+    {% else %}
+      <td class="hw__info"> </td>
+    {% endif %}
+
+
+
+  </tr>
+  {% assign lecture_counter = lecture_counter | plus: 1 %}
+{% endfor %}

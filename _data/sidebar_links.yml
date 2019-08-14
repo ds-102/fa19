@@ -1,0 +1,10 @@
+- name: Home
+  url: /
+- name: Syllabus
+  url: syllabus
+- name: Setup
+  url: setup
+- name: Grading
+  url: grading
+- name: Resources
+  url: resources

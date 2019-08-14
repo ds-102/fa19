@@ -1,0 +1,330 @@
+/**
+ * DS100 CSS
+ *
+ * This file contains all the styles for the website aside from the CSS resets
+ * in /vendor/css/poole.css.
+ *
+ * Note that we make heavy use of CSS variables and CSS flexbox to implement
+ * the website layout since the CSS becomes significantly easier to write and
+ * understand. Because of this, the site won't layout properly in IE and other
+ * older browser versions. However, Jupyter notebooks won't render properly in
+ * older browser versions anyway, so we feel fine about using flexbox.
+ *
+ * Table of contents (use Cmd+F to jump to the relevant section):
+ *
+ * [0] Imports
+ * [1] Variables
+ * [2] Site-wide styles
+ * [3] Reusable components
+ * [4] Sidebar
+ * [5] Announcements
+ * [6] Syllabus
+ */
+
+
+/******************************************************************************
+ * [0] Imports
+ *****************************************************************************/
+@import 'vendor/poole';
+@import 'vendor/syntax';
+
+/******************************************************************************
+ * [1] Variables
+ *****************************************************************************/
+$content-max-width: 700px;
+$tablet-up: 45rem;
+
+$data-blue: #003A70;
+$bg-color: #f6f6f6;
+$text-color: #111;
+
+$sidebar-bg-color: $data-blue;
+$sidebar-text-color: #fff;
+
+/******************************************************************************
+ * [2] Site-wide styles
+ *****************************************************************************/
+
+html {
+  /* https://bitsofco.de/the-new-system-font-stack/ */
+  font-family: -apple-system,
+               BlinkMacSystemFont,
+               "Segoe UI",
+               Roboto,
+               Oxygen-Sans,
+               Ubuntu,
+               Cantarell,
+               "Helvetica Neue",
+               sans-serif;
+}
+
+body {
+  /**
+   * Using flexbox, we can arrange the sidebar on top of the content on small
+   * screens...
+   */
+  display: flex;
+  flex-direction: column;
+
+  /* Set height to 100vh so the sidebar can stay in place */
+  height: 100vh;
+
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+@media (min-width: $tablet-up) {
+  body {
+    /* ...and then put the sidebar on the left on larger screens */
+    flex-direction: row;
+
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+}
+
+ul {
+  /* Makes lists look a bit nicer in Chrome */
+  -webkit-padding-start: 20px;
+}
+
+.announcements-and-content {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.content {
+  width: 100%;
+  max-width: $content-max-width;
+  flex-basis: 75%;
+
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.materials {
+  width: 100%;
+  max-width: $content-max-width;
+  flex-basis: 75%;
+  font-size: 18px;
+  padding: 0 1.5rem;
+}
+
+.content-wide {
+  width: 100%;
+  flex-basis: 75%;
+
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.js-hidden {
+  display: none;
+}
+
+/******************************************************************************
+ * [3] Reusable components
+ *****************************************************************************/
+
+/* Use this wrapper to embed a responsive iframe. Don't display these by default on mobile. */
+.embed-wrapper {
+  display: none;
+}
+
+@media (min-width: $tablet-up) {
+  .embed-wrapper {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+
+    iframe {
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.responsive-calendar-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-calendar-wrapper iframe,   
+.responsive-calendar-wrapper object,  
+.responsive-calendar-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.staff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+  margin-top: 1.5rem;
+}
+
+    .staff__item {
+      flex-basis: 15rem;
+      margin-bottom: 1rem;
+
+      a {
+        font-size: 18px;
+      }
+    }
+
+    .staff__img {
+      object-fit: cover;
+      height: 10rem;
+      width: 7.5rem;
+      margin: 0 auto;
+    }
+
+@media (min-width: $tablet-up) {
+  .staff {
+    flex-direction: row;
+  }
+
+  .staff__item {
+    margin-left: 1rem;
+  }
+}
+
+
+/******************************************************************************
+ * [4] Sidebar
+ *****************************************************************************/
+
+.sidebar {
+  background-color: $sidebar-bg-color;
+  color: $sidebar-text-color;
+
+  padding: 1rem;
+  text-align: center;
+}
+
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5,
+.sidebar h6 {
+  color: $sidebar-text-color;
+}
+
+    .sidebar__title {
+      /* Don't actually display this until we get enough screen space. */
+      display: none;
+    }
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+    .navigation__link {
+      margin: 0.2rem;
+      color: $sidebar-text-color;
+      font-weight: 700;
+    }
+
+@media (min-width: $tablet-up) {
+  .sidebar {
+    /* Give the sidebar some space when screen is bid*/
+    flex-basis: 250px;
+  }
+
+      .sidebar__title {
+        display: block;
+        margin-bottom: 50px;
+      }
+
+  .navigation {
+    flex-direction: column;
+  }
+}
+
+/******************************************************************************
+ * [5] Announcements
+ *****************************************************************************/
+.announcements {
+  width: 100%;
+
+  background-color: $sidebar-bg-color;
+  color: $sidebar-text-color;
+
+  padding: 1rem;
+}
+
+.announcement {
+  max-width: $content-max-width;
+  margin: auto;
+  /* Add extra padding here to match the page content */
+  padding: 0 1rem;
+}
+
+    .announcement__date {
+      color: $sidebar-text-color;
+    }
+
+/******************************************************************************
+ * [6] Syllabus
+ *****************************************************************************/
+.syllabus {
+
+}
+
+  .syllabus__header {
+    border-bottom: 5px solid $data-blue;
+  }
+
+  .lecture:nth-child(even) {
+    border-top: 5px solid $data-blue;
+    background-color: #eee;
+  }
+
+  .lecture__week,
+  .lecture__date {
+    text-align: center;
+  }
+
+  .lecture__textbook {
+    font-size: 1.0rem;
+  }
+
+  .lecture__assignment {
+    font-size: 1.0rem;
+  }
+
+  .lecture__description {
+    font-size: 1.0rem;
+  }
+
+  .lecture__resources {
+    font-size: 0.8rem;
+  }
+
+.lecture--current .lecture__num {
+  background-color: #ffa500;
+}
+
+.lecture__week--current {
+  background-color: $data-blue;
+  color: #fff;
+}

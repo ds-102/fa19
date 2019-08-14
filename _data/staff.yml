@@ -1,0 +1,12 @@
+- email: karlk@berkeley.edu
+  image: https://www.karlk.net/img/karl.png
+  name: Karl Krauth
+- email: emazumdar@berkeley.edu
+  image: https://media.licdn.com/dms/image/C5603AQFF4wvYZcfX9A/profile-displayphoto-shrink_800_800/0?e=1571270400&v=beta&t=sA1pm8TdKmeP0MYHVB_RYZrUpwwD6Mny3JTXwOEh3CM
+  name: Eric Mazumdar
+- email: esther_rolf@berkeley.edu
+  image: https://people.eecs.berkeley.edu/~erolf/images/esther_2019_cropped.jpg
+  name: Esther Rolf
+- email: TODO@TODO.edu
+  image: https://thispersondoesnotexist.com/image
+  name: TODO TODO

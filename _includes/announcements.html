@@ -1,0 +1,21 @@
+
+{% assign first = site.data.announcements.first %}
+{% assign rest = site.data.announcements | shift %}
+<aside class="announcements">
+  <!-- We'll only display the first announcement by default -->
+  <div class="announcement">
+    <strong class="announcement__date">Announcements — {{ first.date }}</strong>
+    {{ first.text | markdownify }}
+  </div>
+
+  <!--
+  Uncomment this code to display the rest of the announcements.
+
+  {% for post in rest %}
+    <div class="announcement">
+      <strong class="announcement__date">Announcements — {{ post.date }}</strong>
+      {{ post.text | markdownify }}
+    </div>
+  {% endfor %}
+  -->
+</aside>

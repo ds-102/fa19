@@ -1,0 +1,9 @@
+# This file contains the course announcements in reverse chronological order.
+# Note that only the most recent (topmost) announcement is rendered.
+
+# Example
+# - date: 1/16/2018
+#   text: |
+#     - Class begins!
+#     - Sign-up for [lab and section times](https://goo.gl/forms/zulZXeFLR1hhu1mh2).
+#     - Sign-up for [Piazza](https://piazza.com/berkeley/spring2018/data100).

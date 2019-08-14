@@ -1,0 +1,24 @@
+
+github: [metadata]
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:categories/:year/:month/:day/:title
+
+exclude: ["readme.md"]
+highlighter: rouge
+
+title: DS100 Fa18
+tagline: Principles and Techniques of Data Science
+
+baseurl: /fa18
+
+sass:
+  style: compressed

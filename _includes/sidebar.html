@@ -1,0 +1,15 @@
+  <aside class="sidebar">
+  <hgroup class="sidebar__title">
+    <h1>DS102 Fa19</h1>
+    <p>
+        <small>Michael Jordan</small>  <br/> 
+        <small>Fernando Perez</small>
+    </p>
+  </hgroup>
+
+  <nav class="navigation">
+    {% for link in site.data.sidebar_links %}
+      <a class="navigation__link" href="{{ link.url | relative_url }}">{{ link.name }}</a>
+    {% endfor %}
+  </nav>
+</aside>
