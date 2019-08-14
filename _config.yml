@@ -18,7 +18,7 @@ highlighter: rouge
 title: DS100 Fa18
 tagline: Principles and Techniques of Data Science
 
-baseurl: /fa18
+baseurl: /fa19
 
 sass:
   style: compressed
