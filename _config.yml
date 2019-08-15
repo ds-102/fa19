@@ -15,7 +15,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: ["readme.md"]
 highlighter: rouge
 
-title: DS100 Fa18
+title: DS102 Fa19
 tagline: Principles and Techniques of Data Science
 
 baseurl: /fa19

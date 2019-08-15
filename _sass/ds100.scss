@@ -194,6 +194,12 @@ ul {
       margin: 0 auto;
     }
 
+.section__time {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-size: 14px;
+}
+
 @media (min-width: $tablet-up) {
   .staff {
     flex-direction: row;

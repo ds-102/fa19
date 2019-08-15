@@ -6,7 +6,10 @@
         <img class="staff__img" src="{{ staff.image }}" alt="{{ staff.name }}" />
         <address>
             <strong>{{ staff.name }}</strong>
-            <a href="mailto:{{ staff.email }}"> (email)</a>
+            {% for line in staff.oh_info %}
+            <p class="section__time"> {{ line }} </p>
+            {% endfor %}
+            <p><a href="mailto:{{ staff.email }}"> (email)</a></p>
         </address>
     </div>
     {% endfor %}

@@ -1,12 +1,28 @@
 - email: karlk@berkeley.edu
   image: https://www.karlk.net/img/karl.png
+  oh_info:
+  - "Disc: W 1-2 (Hildebrand B51)"
+  - "Lab: M 1-2 (Evans 342)"
+  - "OH: TODO"
   name: Karl Krauth
 - email: emazumdar@berkeley.edu
   image: https://media.licdn.com/dms/image/C5603AQFF4wvYZcfX9A/profile-displayphoto-shrink_800_800/0?e=1571270400&v=beta&t=sA1pm8TdKmeP0MYHVB_RYZrUpwwD6Mny3JTXwOEh3CM
+  oh_info:
+  - "Disc: W 9-10 (Evans 342)"
+  - "Lab: M 9-10 (Evans 342)"
+  - "OH: TODO"
   name: Eric Mazumdar
 - email: esther_rolf@berkeley.edu
   image: https://people.eecs.berkeley.edu/~erolf/images/esther_2019_cropped.jpg
+  oh_info:
+  - "Disc: W 10-11 (Evans 342)"
+  - "Lab: M 10-11 (Evans 342)"
+  - "OH: TODO"
   name: Esther Rolf
 - email: TODO@TODO.edu
   image: https://thispersondoesnotexist.com/image
+  oh_info:
+  - "Disc: W 12-1 (Hildebrand B51)"
+  - "Lab: M 12-1 (Evans 342)"
+  - "OH: TODO"
   name: TODO TODO
