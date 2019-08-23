@@ -1,0 +1,17 @@
+<section class="staff">
+
+        {% for staff in site.data.additional_instructors %}
+    
+        <div class="staff__item">
+            <img class="staff__img" src="{{ staff.image }}" alt="{{ staff.name }}" />
+            <address>
+                <strong>{{ staff.name }}</strong>
+                {% for line in staff.oh_info %}
+                <p class="section__time"> {{ line }} </p>
+                {% endfor %}
+                <p><a href="mailto:{{ staff.email }}"> (email)</a></p>
+            </address>
+        </div>
+        {% endfor %}
+    
+    </section>

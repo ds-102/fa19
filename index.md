@@ -45,9 +45,13 @@ While we are working to make this class widely accessible we currently require t
 
 
 
-## Instructors
+## Main Instructors
 
 {% include instructor_entries.html %}
+
+## Additional Instructors
+
+{% include additional_instructor_entries.html %}
 
 ## TAs
 
