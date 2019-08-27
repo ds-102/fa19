@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Principles and Techniques of Data Science"
+title: "Data, Inference, and Decisions"
 ---
 
-<!-- # DS100: Principles & Techniques of Data Science -->
+<!-- # DS102: Data, Inference, and Decisions -->
 
 This course develops the probabilistic foundations of inference in data science, and builds a comprehensive view of the modeling and decision-making life cycle in data science including its human, social, and ethical implications. Topics include: frequentist and Bayesian decision-making, permutation testing, false discovery rate, probabilistic interpretations of models, Bayesian hierarchical models, basics of experimental design, confidence intervals, causal inference, Thompson sampling, optimal control, Q-learning, differential privacy, clustering algorithms, recommendation systems and an introduction to machine learning tools including decision trees, neural networks and ensemble methods.
 
@@ -14,7 +14,7 @@ This class is listed as [STAT 102](https://classes.berkeley.edu/content/2019-fal
 * **When:** Lectures Tuesdays and Thursdays from 2:00PM to 3:30PM
 * **Where:** [306 Soda](http://www.berkeley.edu/map?soda)
 * **What:** See the [lecture schedule](syllabus)
-* **News:** We will post updates about the class on [Piazza](https://piazza.com/TODO_INSERT_LINK_HERE)
+* **News:** We will post updates about the class on [Piazza](https://piazza.com/jzud9j0ubp85s2)
 
 ## Lab, Section, and Office Hours Schedules
 
