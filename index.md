@@ -14,7 +14,7 @@ This class is listed as [STAT 102](https://classes.berkeley.edu/content/2019-fal
 * **When:** Lectures Tuesdays and Thursdays from 2:00PM to 3:30PM
 * **Where:** [306 Soda](http://www.berkeley.edu/map?soda)
 * **What:** See the [lecture schedule](syllabus)
-* **News:** We will post updates about the class on [Piazza](https://piazza.com/jzud9j0ubp85s2)
+* **News:** We will post updates about the class on [Piazza](https://piazza.com/class/jzud9j0ubp85s2)
 
 ## Lab, Section, and Office Hours Schedules
 
