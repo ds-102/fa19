@@ -18,7 +18,7 @@ highlighter: rouge
 title: DS102 Fa19
 tagline: Principles and Techniques of Data Science
 
-baseurl: /fa19
+baseurl: /
 
 sass:
   style: compressed
