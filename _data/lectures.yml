@@ -72,10 +72,10 @@
   topic: Gibbs Sampling and Importance Sampling
 
 - date: 10/3/19
-  topic: Confidence/Credible Intervals from Likelihood/Prior
+  topic: Confidence/Credible Intervals from Likelihood/Prior/Bootstrap
 
 - date: 10/8/19
-  topic: Confidence Intervals from Bootstrap
+  topic: Confidence Intervals from Chernoff/Hoeffding
 
 - date: 10/10/19
   topic: Causal Inference I
@@ -96,7 +96,7 @@
   topic: Thompson Sampling
 
 - date: 10/31/19
-  topic: Optimal Control and Reinforcement Learning
+  topic: Dynamic Programming
 
 - date: 11/5/19
   topic: Introduction to the Linear Quadratic Regulator
