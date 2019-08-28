@@ -30,21 +30,20 @@
 
 - date: 8/29/19
   topic: Course Overview, Making Decisions Under Uncertainty
-  description: TODO
-  slides: TODO INCLUDE LINK HERE
+  description:
+  slides:
   resources: |
-    - [Demo Notebook](assets/lectures/lec1.zip) (also on Datahub)
-    - [Textbook: TODO](https://www.textbook.ds102.org/TODO)
-    - [Screencast](https://www.youtube.com/TODO)
-  discussion: |
-    - [Disc0](assets/discussions/TODO.pdf)
-    - [Solutions](https://github.com/DS-102/TODO)
-  homework: |
-    - HW0 Released
-    - [HW0 Solutions](https://nbviewer.jupyter.org/github/DS-102/TODO)
+    **Readings**
+    - [Artificial Intelligence — The Revolution Hasn’t Happened Yet](https://hdsr.mitpress.mit.edu/pub/wot7mkc1) 
+    - Discussion by nine commentators [1](https://hdsr.mitpress.mit.edu/pub/djb16hzl?readingCollection=72befc2a), [2](https://hdsr.mitpress.mit.edu/pub/kyzf7fjv?readingCollection=72befc2a), [3](https://hdsr.mitpress.mit.edu/pub/rim3pvdw?readingCollection=72befc2a), [4](https://hdsr.mitpress.mit.edu/pub/pqddq8u5?readingCollection=72befc2a), [5](https://hdsr.mitpress.mit.edu/pub/wiq01ru6?readingCollection=72befc2a), [6](https://hdsr.mitpress.mit.edu/pub/pjebp7io?readingCollection=72befc2a), [7](https://hdsr.mitpress.mit.edu/pub/plto69bh?readingCollection=72befc2a)
+    - [Dr. AI or: How I Learned to Stop Worrying and Love Economics](https://hdsr.mitpress.mit.edu/pub/2imtstfu?readingCollection=72befc2a)
 
 - date: 9/3/19
   topic: Review of Frequentist and Bayesian Decision-Making
+  discussion: |
+    - Disc1 to be released
+  homework: |
+    - HW1 to be released
 
 - date: 9/5/19
   topic: Permutation Tests
@@ -77,13 +76,13 @@
   topic: Confidence Intervals from Bootstrap
 
 - date: 10/10/19
-  topic: Confidence Intervals from Chernoff/Hoeffding
-
-- date: 10/15/19
   topic: Causal Inference I
 
-- date: 10/17/19
+- date: 10/15/19
   topic: Causal Inference II
+
+- date: 10/17/19
+  topic: Midterm
 
 - date: 10/22/19
   topic: Rudiments of Experimental Design
@@ -98,10 +97,10 @@
   topic: Optimal Control and Reinforcement Learning
 
 - date: 11/5/19
-  topic: Q Learning I
+  topic: Introduction to the Linear Quadratic Regulator
 
 - date: 11/7/19
-  topic: Q Learning II
+  topic: Q Learning
 
 - date: 11/12/19
   topic: Privacy and Differential Privacy
