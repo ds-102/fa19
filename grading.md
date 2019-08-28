@@ -11,7 +11,7 @@ There will be 1 challenging project and 8 homework assignments. Assignments must
 - 20% Midterm
 - 30% Final (or 35% if opting out of attendance)
 
-(The midterm will tentatively be in class on October 16th. The final exam will be December 13th 11:30am - 2:30pm)
+(The midterm will tentatively be in class on October 17th. The final exam will be December 17th 8:00am - 11:00am.)
 
 ### Slip Days
 - 5 days of slip time you can use on homeworks or projects.
@@ -36,7 +36,7 @@ of days. No assignment will be accepted more than 5 days late.
 Data science is a collaborative activity.
 While you may talk with others about the homework, we ask that you write your solutions individually.
 If you do discuss the assignments with others please include their names at the top of your notebook.
-Keep in mind that content from the homework and vitamins will likely be covered on both the midterm and final.
+Keep in mind that content from the homeworks and labs will likely be covered on both the midterm and final.
 We will be following the [EECS
 departmental policy on Academic
 Honesty](https://eecs.berkeley.edu/resources/students/academic-dishonesty), so
