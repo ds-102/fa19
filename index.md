@@ -23,15 +23,6 @@ This class is listed as [STAT 102](https://classes.berkeley.edu/content/2019-fal
 For official holidays see the [academic calendar](https://registrar.berkeley.edu/sites/default/files/pdf/UCB_AcademicCalendar_2018-19_V2.pdf).
 
 
-## Goals
-
-* TODO
-
-* TODO
-
-* TODO
-
-
 ## Prerequisites
 
 While we are working to make this class widely accessible we currently require the following (or equivalent) prerequisites :
