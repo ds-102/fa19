@@ -30,8 +30,10 @@
 
 - date: 8/29/19
   topic: Course Overview, Making Decisions Under Uncertainty
-  description:
-  slides:
+  description: In this lecture we provide an overview of data science and where it might head in the future.
+    We discuss the importance of decision making rather than simple inference. As a first step in this direction we
+    cover the different angles through which a simple hypothesis test can be viewed.
+  slides: assets/lectures/lecture1.pdf
   resources: |
     **Readings**
     - [Artificial Intelligence — The Revolution Hasn’t Happened Yet](https://hdsr.mitpress.mit.edu/pub/wot7mkc1) 
