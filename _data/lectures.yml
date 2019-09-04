@@ -42,6 +42,10 @@
 
 - date: 9/3/19
   topic: Review of Frequentist and Bayesian Decision-Making
+  description: In this lecture we continue investigating the intricacies that arise when running a simple hypothesis test.
+    We look at the difference between the frequentist and the Bayesian view of hypothesis testing. We further develop these ideas by
+    introducing a decision-theoretic framework. Using this framework we can mathematically define both Bayesian and frequentist decision rules.
+  slides: assets/lectures/lecture2.pdf
   discussion: |
     - Disc1 to be released
   homework: |
