@@ -50,17 +50,24 @@
     - Disc1 to be released
   homework: |
     - [HW1](https://github.com/ds-102/fa19/blob/master/hw/hw01/hw01.pdf) released
+- date: 9/5/19
+  topic: False Discovery Rate Control
+  description: In this lecture we continue developing our decision-theoretic framework. In particular we consider properties of the risk of
+    various loss functions. The main portion of the lecture is dedicated to false discovery rate control. We look at two ideas that go beyond
+    basic hypothesis testing. We consider the Bonferroni test which is a naive way of controlling the family-wise error rate. We then look into
+    Benjamini-Hochberg which is a more elaborate method that controls the false discovery rate.
+  slides: assets/lectures/lecture3.pdf
+
+- date: 9/10/19
+  topic: Online FDR
+  homework: |
+    - HW1 due
+    - HW2 to be released
   lab: |
     - Lab1 to be released
 
-- date: 9/5/19
-  topic: Permutation Tests
-
-- date: 9/10/19
-  topic: False Discovery Rate Control
-
 - date: 9/12/19
-  topic: Online FDR
+  topic: Permutation Testing
 
 - date: 9/17/19
   topic: Probability Interpretation of Linear Gaussian Models
