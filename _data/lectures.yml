@@ -47,7 +47,7 @@
     introducing a decision-theoretic framework. Using this framework we can mathematically define both Bayesian and frequentist decision rules.
   slides: assets/lectures/lecture2.pdf
   discussion: |
-    - Disc1 to be released
+    - [Disc1](https://github.com/ds-102/fa19/blob/master/disc/disc01.pdf)
   homework: |
     - [HW1](https://github.com/ds-102/fa19/blob/master/hw/hw01/hw01.pdf) released
 - date: 9/5/19
