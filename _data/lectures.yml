@@ -62,6 +62,7 @@
 
 - date: 9/10/19
   topic: Online FDR
+  slides: assets/lectures/lecture4.pdf
   homework: |
     - HW1 due
     - [HW2](https://github.com/ds-102/fa19/blob/master/hw/hw02) released
