@@ -7,6 +7,11 @@
 #     - Class begins!
 #     - Sign-up for [lab and section times](https://goo.gl/forms/zulZXeFLR1hhu1mh2).
 #     - Sign-up for [Piazza](https://piazza.com/berkeley/spring2018/data100).
+- date: 09/10/2019
+  text: |
+    - [Notes for lecture 2](assets/notes/notes02.pdf) have been released. We will be releasing
+    scribed notes for the lectures at irregular intervals so keep an eye out for them on the
+    syllabus section of the website.
 - date: 09/08/2019
   text: |
     - [Lab1](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab01) has been released. It is due on 09/15/2019 at 11:59pm on Gradescope. Future labs will be due the same day as your lab session at 11:59pm.
