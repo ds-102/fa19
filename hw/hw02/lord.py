@@ -4,6 +4,7 @@ def LORD(stream,alpha):
     
     gamma = lambda t: 6/(math.pi*t)**2
     w_0 = alpha/2
+    n = len(stream)
     rejections = []
     alpha_t = gamma(1)*w_0
     for t in range(1,n+1):
