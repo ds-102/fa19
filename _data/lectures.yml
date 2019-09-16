@@ -80,12 +80,17 @@
 
 - date: 9/17/19
   topic: Probability Interpretation of Linear Gaussian Models
+  lab: |
+    - [Lab2](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab02)
 
 - date: 9/19/19
   topic: Probability Interpretation of Logistic Models
 
 - date: 9/24/19
   topic: Bayesian Hierarchical Models I
+  homework: |
+    - HW2 due
+    - HW3 to be released
 
 - date: 9/26/19
   topic: Bayesian Hierarchical Models II
