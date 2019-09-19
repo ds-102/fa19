@@ -91,7 +91,7 @@
   topic: Probability Interpretation of Logistic Models
   slides: assets/lectures/lecture7.pdf
   resources: |
-    - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture05/Logistic_Regression.ipynb) released
+    - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture07/Logistic_Regression.ipynb)
 
 - date: 9/24/19
   topic: Bayesian Hierarchical Models I
