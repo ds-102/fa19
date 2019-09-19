@@ -5,7 +5,7 @@ title: "Grading"
 
 There will be 1 challenging project and 6 to 7 homework assignments. Assignments will mix programming and short answer questions. Lab assignments will be graded on completion and correctness, but all test cases will be public. Your two lowest labs will be dropped.
 
-- 20% homeworks and labs (20% homework, 10% labs)
+- 30% homeworks and labs (20% homework, 10% labs)
 - 15% Project
 - 20% Midterm
 - 35% Final
