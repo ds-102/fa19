@@ -63,7 +63,7 @@
   slides: assets/lectures/lecture3.pdf
 
 - date: 9/10/19
-  topic: Online FDR
+  topic: Online FDR I
   slides: assets/lectures/lecture4.pdf
   discussion: |
     - [Disc2](https://github.com/ds-102/fa19/blob/master/disc/disc02.pdf)
@@ -76,8 +76,10 @@
     - [Lab1](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab01)
 
 - date: 9/12/19
-  topic: Permutation Testing
+  topic: Online FDR II & Permutation Testing
   slides: assets/lectures/lecture5.pdf
+  resources: |
+    - [**Notes**](assets/notes/notes02.pdf)
 
 - date: 9/17/19
   topic: Probability Interpretation of Linear Gaussian Models
