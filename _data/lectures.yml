@@ -100,7 +100,7 @@
   homework: |
     - [Lab3](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab03)
     - HW2 due
-    - HW3 to be released
+    - [HW3](https://github.com/ds-102/fa19/blob/master/hw/hw03) released
 
 - date: 9/26/19
   topic: Bayesian Hierarchical Models II
@@ -113,6 +113,9 @@
 
 - date: 10/8/19
   topic: Confidence Intervals from Chernoff/Hoeffding
+  homework: |
+    - HW3 due
+    - HW4 to be released
 
 - date: 10/10/19
   topic: Causal Inference I
