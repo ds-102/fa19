@@ -100,7 +100,10 @@
   homework: |
     - HW2 due
     - [HW3](https://github.com/ds-102/fa19/blob/master/hw/hw03) released
+  resources: |
     - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture08/lecture08.ipynb)
+  discussion: |
+    - [Disc4](https://github.com/ds-102/fa19/blob/master/disc/disc04.pdf)
   lab: |
     - [Lab3](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab03)
 
