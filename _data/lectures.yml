@@ -114,6 +114,8 @@
   topic: Gibbs Sampling and Importance Sampling
   lab: |
     - [Lab4](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab04)
+  discussion: |
+    - [Disc5](https://github.com/ds-102/fa19/blob/master/disc/disc05.pdf)
 
 - date: 10/3/19
   topic: Intervals for Estimation (Confidence and Credible)
