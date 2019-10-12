@@ -128,7 +128,7 @@
     - [Lab5](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab05)
   homework: |
     - HW3 due
-    - HW4 to be released
+    - [HW4](https://github.com/ds-102/fa19/blob/master/hw/hw04) released
 
 - date: 10/10/19
   topic: Causal Inference I
@@ -147,6 +147,9 @@
 
 - date: 10/29/19
   topic: Thompson Sampling
+  homework: |
+    - HW4 due (10/26/19)
+    - HW5 to be released
 
 - date: 10/31/19
   topic: Dynamic Programming
