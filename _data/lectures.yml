@@ -82,18 +82,21 @@
     - [**Notes**](assets/notes/notes05.pdf)
 
 - date: 9/17/19
-  topic: Probability Interpretation of Linear Gaussian Models
+  topic: Probability Interpretation of Linear Models
   lab: |
     - [Lab2](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab02)
   slides: assets/lectures/lecture6.pdf
   discussion: |
     - [Disc3](https://github.com/ds-102/fa19/blob/master/disc/disc03.pdf)
+  resources: |
+    - [**Notes**](assets/notes/notes06.pdf)
 
 - date: 9/19/19
   topic: Probability Interpretation of Logistic Models
   slides: assets/lectures/lecture7.pdf
   resources: |
-    - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture07/Logistic_Regression.ipynb)
+    - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture07/lecture07.ipynb)
+    - [**Notes**](assets/notes/notes07.pdf)
 
 - date: 9/24/19
   topic: Bayesian Hierarchical Models I
@@ -127,6 +130,7 @@
 
 - date: 10/8/19
   topic: Confidence Intervals from Chernoff/Hoeffding
+  resources: |
     - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture12/lecture12.ipynb)
   lab: |
     - [Disc6](https://github.com/ds-102/fa19/blob/master/disc/disc06.pdf)
