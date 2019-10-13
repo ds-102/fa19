@@ -112,6 +112,8 @@
 
 - date: 10/1/19
   topic: Gibbs Sampling and Importance Sampling
+  resources: |
+    - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture10/lecture10.ipynb)
   lab: |
     - [Lab4](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab04)
   discussion: |
@@ -120,9 +122,12 @@
 - date: 10/3/19
   topic: Intervals for Estimation (Confidence and Credible)
   slides: assets/lectures/lecture11.pdf
+  resources: |
+    - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture11/lecture11.ipynb)
 
 - date: 10/8/19
   topic: Confidence Intervals from Chernoff/Hoeffding
+    - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture12/lecture12.ipynb)
   lab: |
     - [Disc6](https://github.com/ds-102/fa19/blob/master/disc/disc06.pdf)
     - [Lab5](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab05)
