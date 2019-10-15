@@ -104,6 +104,7 @@
     - HW2 due
     - [HW3](https://github.com/ds-102/fa19/blob/master/hw/hw03) released
   resources: |
+    - [**Notes**](assets/notes/notes08.pdf)
     - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture08/lecture08.ipynb)
   discussion: |
     - [Disc4](https://github.com/ds-102/fa19/blob/master/disc/disc04.pdf)
@@ -112,10 +113,13 @@
 
 - date: 9/26/19
   topic: Bayesian Hierarchical Models II
+  resources: |
+    - [**Notes**](assets/notes/notes09.pdf)
 
 - date: 10/1/19
   topic: Gibbs Sampling and Importance Sampling
   resources: |
+    - [**Notes**](assets/notes/notes10.pdf)
     - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture10/lecture10.ipynb)
   lab: |
     - [Lab4](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab04)
@@ -133,8 +137,9 @@
   resources: |
     - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture12/lecture12.ipynb)
   lab: |
-    - [Disc6](https://github.com/ds-102/fa19/blob/master/disc/disc06.pdf)
     - [Lab5](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab05)
+  discussion: |
+    - [Disc6](https://github.com/ds-102/fa19/blob/master/disc/disc06.pdf)
   homework: |
     - HW3 due
     - [HW4](https://github.com/ds-102/fa19/blob/master/hw/hw04) released
