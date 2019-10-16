@@ -149,7 +149,9 @@
 
 - date: 10/15/19
   lab: |
-    - [Practice Midterm](assets/midterm_practice.pdf)
+    - [Practice Midterm 1](assets/midterm_practice.pdf)
+  discussion: |
+    - [Practice Midterm 2](assets/midterm_practice_2.pdf)
   topic: Causal Inference
 
 - date: 10/17/19
