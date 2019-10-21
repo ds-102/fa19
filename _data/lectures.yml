@@ -152,19 +152,21 @@
     - [Practice Midterm 1](assets/midterm_practice.pdf)
   discussion: |
     - [Practice Midterm 2](assets/midterm_practice_2.pdf)
-  topic: Causal Inference
+  topic: Causal Inference I
 
 - date: 10/17/19
   topic: Midterm
 
 - date: 10/22/19
-  topic: Rudiments of Experimental Design
+  topic: Causal Inference II
+  lab: |
+    - [Lab6](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab06)
 
 - date: 10/24/19
-  topic: "Bandits: Greedy and UCB Algorithms"
+  topic: Rudiments of Experimental Design
 
 - date: 10/29/19
-  topic: Thompson Sampling
+  topic: "Bandits: Greedy and UCB Algorithms"
   homework: |
     - HW4 due (10/26/19)
     - HW5 to be released
