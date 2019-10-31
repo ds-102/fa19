@@ -167,6 +167,8 @@
 - date: 10/24/19
   slides: assets/lectures/lecture15.pdf
   topic: Rudiments of Experimental Design
+  resources: |
+    - [**Notes**](assets/notes/notes15.pdf)
 
 - date: 10/29/19
   topic: Bandits I
