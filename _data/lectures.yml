@@ -161,6 +161,8 @@
   topic: Causal Inference II
   lab: |
     - [Lab6](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab06)
+  discussion: |
+    - [Disc7](https://github.com/ds-102/fa19/blob/master/disc/disc07.pdf)
 
 - date: 10/24/19
   slides: assets/lectures/lecture15.pdf
@@ -173,6 +175,8 @@
   homework: |
     - HW4 due (10/26/19)
     - [HW5](https://github.com/ds-102/fa19/blob/master/hw/hw05) released
+  discussion: |
+    - [Disc8](https://github.com/ds-102/fa19/blob/master/disc/disc08.pdf)
 
 - date: 10/31/19
   topic: Bandits II
