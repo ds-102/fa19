@@ -185,6 +185,8 @@
 
 - date: 11/5/19
   topic: Control I
+  lab: |
+    - [Lab8](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab08)
 
 - date: 11/7/19
   topic: Control II
