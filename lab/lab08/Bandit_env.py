@@ -8,7 +8,6 @@ from matplotlib.widgets import CheckButtons
 from matplotlib import gridspec
 import functools
 import scipy
-matplotlib.use('Qt5Agg') 
 
 sns.set()
 
