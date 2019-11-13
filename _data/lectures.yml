@@ -187,13 +187,16 @@
   slides: assets/lectures/lecture18.pdf
   topic: Control I
   lab: |
-    - [Lab8](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab08)
+    - [Disc8](https://github.com/ds-102/fa19/blob/master/disc/disc08.pdf)
+    - [Lab9](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab09)
 
 - date: 11/7/19
   topic: Control II
 
 - date: 11/12/19
   slides: assets/lectures/lecture20.pdf
+  homework: |
+    - HW5 due
   topic: Matching Markets
 
 - date: 11/14/19
