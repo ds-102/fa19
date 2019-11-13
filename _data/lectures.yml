@@ -189,8 +189,9 @@
   resources: |
     - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture18/lecture18.ipynb)
   topic: Control I
+  discussion: |
+    - [Disc9](https://github.com/ds-102/fa19/blob/master/disc/disc09.pdf)
   lab: |
-    - [Disc8](https://github.com/ds-102/fa19/blob/master/disc/disc08.pdf)
     - [Lab9](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab09)
 
 - date: 11/7/19
