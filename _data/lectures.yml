@@ -178,12 +178,14 @@
   topic: Bandits II
 
 - date: 11/5/19
+  slides: assets/lectures/lecture18.pdf
   topic: Control I
 
 - date: 11/7/19
   topic: Control II
 
 - date: 11/12/19
+  slides: assets/lectures/lecture20.pdf
   topic: Matching Markets
 
 - date: 11/14/19
