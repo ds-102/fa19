@@ -171,6 +171,7 @@
     - [**Notes**](assets/notes/notes15.pdf)
 
 - date: 10/29/19
+  slides: assets/lectures/lecture16.pdf
   topic: Bandits I
   lab: |
     - [Lab7](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab07)
@@ -184,7 +185,12 @@
   topic: Bandits II
 
 - date: 11/5/19
+  slides: assets/lectures/lecture18.pdf
+  resources: |
+    - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture18/lecture18.ipynb)
   topic: Control I
+  discussion: |
+    - [Disc9](https://github.com/ds-102/fa19/blob/master/disc/disc09.pdf)
   lab: |
     - [Lab8](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab08)
 
@@ -192,6 +198,9 @@
   topic: Control II
 
 - date: 11/12/19
+  slides: assets/lectures/lecture20.pdf
+  homework: |
+    - HW5 due
   topic: Matching Markets
 
 - date: 11/14/19
