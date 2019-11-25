@@ -221,12 +221,16 @@
   topic: Privacy I
 
 - date: 11/26/19
+  lab: |
+    - [Lab10](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab10)
   topic: Privacy II
 
 - date: 11/28/19
   topic: Thanksgiving
 
 - date: 12/3/19
+  homework: |
+    - Project Part 1 Due
   topic: Real-World Consequences of Decisions
 
 - date: 12/5/19
