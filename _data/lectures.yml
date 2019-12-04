@@ -230,6 +230,8 @@
   topic: Thanksgiving
 
 - date: 12/3/19
+  discussion:
+    - [Disc12](https://github.com/ds-102/fa19/blob/master/disc/disc12.pdf)
   homework: |
     - Project Part 1 Due
   topic: Real-World Consequences of Decisions
