@@ -218,9 +218,11 @@
   topic: Nonparametric Methods II
 
 - date: 11/21/19
+  slides: assets/lectures/lecture23.pdf
   topic: Privacy I
 
 - date: 11/26/19
+  slides: assets/lectures/lecture24.pdf
   lab: |
     - [Lab10](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab10)
     - [Project Part 2](https://github.com/ds-102/fa19/blob/master/project/project02.pdf) released
@@ -237,6 +239,7 @@
   topic: Real-World Consequences of Decisions
 
 - date: 12/5/19
+  slides: assets/lectures/lecture26.pdf
   topic: "Communication: Presenting Results and Conclusions"
 
 - date: 12/10/19
