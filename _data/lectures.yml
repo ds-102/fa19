@@ -183,6 +183,8 @@
 
 - date: 10/31/19
   topic: Bandits II
+  resources: |
+    - [**iPython notebook**](https://github.com/ds-102/fa19/blob/master/lectures/lecture17/lecture17.ipynb)
 
 - date: 11/5/19
   slides: assets/lectures/lecture18.pdf
