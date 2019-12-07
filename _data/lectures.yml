@@ -173,6 +173,8 @@
 - date: 10/29/19
   slides: assets/lectures/lecture16.pdf
   topic: Bandits I
+  resources: |
+    - [**Notes**](assets/notes/notes16.pdf)
   lab: |
     - [Lab7](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab07)
   homework: |
