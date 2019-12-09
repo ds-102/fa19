@@ -153,6 +153,8 @@
   discussion: |
     - [Practice Midterm 2](assets/midterm_practice_2.pdf)
   topic: Causal Inference I
+  resources: |
+    - [**Notes**](assets/notes/notes13.pdf)
 
 - date: 10/17/19
   topic: Midterm
@@ -227,6 +229,8 @@
 
 - date: 11/26/19
   slides: assets/lectures/lecture24.pdf
+  resources: |
+    - [**Notes**](assets/notes/notes24.pdf)
   lab: |
     - [Lab10](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab10)
     - [Project Part 2](https://github.com/ds-102/fa19/blob/master/project/project02.pdf) released
