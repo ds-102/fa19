@@ -225,6 +225,8 @@
 
 - date: 11/21/19
   slides: assets/lectures/lecture23.pdf
+  resources: |
+    - [**Notes**](assets/notes/notes23.pdf)
   topic: Privacy I
 
 - date: 11/26/19
