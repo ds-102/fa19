@@ -160,6 +160,8 @@
   topic: Midterm
 
 - date: 10/22/19
+  resources: |
+    - [**Notes**](assets/notes/notes14.pdf)
   topic: Causal Inference II
   lab: |
     - [Lab6](http://data102.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/ds-102/fa19&branch=master&subPath=lab/lab06)
