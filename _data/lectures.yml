@@ -204,6 +204,8 @@
 
 - date: 11/7/19
   topic: Control II
+  resources: |
+    - [**Notes**](assets/notes/notes19.pdf)
 
 - date: 11/12/19
   slides: assets/lectures/lecture20.pdf
